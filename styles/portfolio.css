@@ -36,6 +36,9 @@
   font-size: 18px;
   color: #757575;
 }
+.text-center{
+  text-align: center;
+}
 /* header */
 .header{
   background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -94,13 +97,17 @@ main{
   margin: 0 auto;
 
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 /* About related styles
  */
  .about{
   border-radius: 10px;
   padding:130px 150px;
   text-align: center;
-  margin-top: 130px;
+  
  }
 .about-items{
   display: flex;
@@ -108,4 +115,14 @@ main{
 }
  .item-decription{
   font-weight: bold;
+ }
+ /* skills section styles */
+ .skills-container{
+  display: flex;
+  gap: 24px;
+ }
+ .skill{
+  padding: 33px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
  }
